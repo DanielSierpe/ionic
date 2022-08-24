@@ -1,0 +1,7 @@
+{
+  "name": "proeyctoblack",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
