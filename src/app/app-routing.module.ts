@@ -23,6 +23,10 @@ const routes: Routes = [
     path: 'configuracion',
     loadChildren: () => import('./configuracion/configuracion.module').then( m => m.ConfiguracionPageModule)
   },
+  {
+    path: 'menutabs',
+    loadChildren: () => import('./menutabs/menutabs.module').then( m => m.MenutabsPageModule)
+  },
 ];
 
 @NgModule({
